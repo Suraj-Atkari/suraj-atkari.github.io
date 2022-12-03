@@ -6,4 +6,17 @@ body {
 
 }
 
-section.tech-stack ul ()
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+header .container ul li {
+  display: inline-block;
+}
+
+header .container ul {
+  word-spacing: 5px;
+}
